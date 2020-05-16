@@ -16,3 +16,5 @@ class Song
     self
   end
 end
+
+a = Song.create()
