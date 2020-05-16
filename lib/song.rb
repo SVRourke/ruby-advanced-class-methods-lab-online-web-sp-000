@@ -25,4 +25,4 @@ end
 # a = Song.new_by_name("Jeff")
 a = Song.create
 a.name = "Jeff"
-Song.all.each {|song| puts Song.name}
+Song.all.each {|song| puts song.name}
