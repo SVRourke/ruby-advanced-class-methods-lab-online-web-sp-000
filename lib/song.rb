@@ -16,6 +16,3 @@ class Song
     song
   end
 end
-
-a = Song.create()
-puts Song.all
