@@ -21,3 +21,5 @@ class Song
     song.name = name
   end
 end
+a = Song.new_by_name("Jeff")
+puts Song.all
