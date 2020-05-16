@@ -14,4 +14,5 @@ class Song
     self.new
     save
     self
+  end
 end
