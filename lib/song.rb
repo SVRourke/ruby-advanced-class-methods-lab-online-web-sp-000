@@ -50,8 +50,8 @@ class Song
     filename.gsub(".mp3", "")
     filename = filename.split(" - ")
 
-    song = self.new_by_name(filename[0])
-    song.artist_name = filename[1]
+    song = self.new_by_name(filename[1])
+    song.artist_name = filename[0]
     song
   end
 
