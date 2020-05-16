@@ -24,5 +24,5 @@ end
 
 a = Song.new_by_name("Blank Space")
 # a = Song.create
-puts a.name
+puts a
 # Song.all.each {|song| puts song.name}
