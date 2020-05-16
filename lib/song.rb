@@ -47,9 +47,3 @@ class Song
   end
 
 end
-Song.create_by_name("d")
-Song.create_by_name("c")
-Song.create_by_name("b")
-Song.create_by_name("a")
-puts Song.all
-print Song.alphabetical
