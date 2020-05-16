@@ -22,4 +22,4 @@ class Song
   end
 end
 a = Song.new_by_name("Jeff")
-puts Song.all
+Song.all.each {|song| puts Song.name}
