@@ -42,9 +42,8 @@ class Song
     end
   end
 
+  def self.alphabetical
+    @@all.collect {|song| song.name}.sort
+  end
+      
 end
-
-a = Song.new_by_name("Blank Space")
-# a = Song.create
-puts a
-# Song.all.each {|song| puts song.name}
