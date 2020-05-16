@@ -17,3 +17,4 @@ class Song
 end
 
 a = Song.create()
+puts Song.all
