@@ -52,4 +52,4 @@ Song.create_by_name("c")
 Song.create_by_name("b")
 Song.create_by_name("a")
 puts Song.all
-puts Song.alphabetical
+print Song.alphabetical
