@@ -45,5 +45,5 @@ class Song
   def self.alphabetical
     @@all.collect {|song| song.name}.sort
   end
-      
+
 end
